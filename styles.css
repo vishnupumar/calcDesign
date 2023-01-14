@@ -1,0 +1,60 @@
+.main{
+    width: 450px;
+    height: 400px;
+    background-color: rgb(55, 55, 117);
+    padding-top: 20px;
+    margin: auto;
+}
+.inner-div{
+    width: 350px;
+    height: 350px;
+    background-color: brown;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px 0px 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    box-shadow: 0 5px rgb(65, 32, 14);
+
+}
+
+.displaybox{
+    grid-column: 2/5;
+}
+.displaybox input{
+    color:white;
+    background:  rgb(38, 38, 80);
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: end;
+}
+
+.operations button{
+    background-color: rgb(31, 37, 37);
+    box-shadow: 0 5px rgb(6, 59, 50);
+}
+
+.numbers button{
+    background-color: rgb(30, 19, 48);
+    box-shadow: 0 5px rgb(56, 53, 78);
+}
+.results button{
+    background-color: rgb(73, 61, 143);
+    box-shadow: 0 5px rgb(48, 43, 88);
+}
+button{
+    font-size: large;
+    color: white;
+    background-color: rgb(22, 14, 51);
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+    
+    
+}
